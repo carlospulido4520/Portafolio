@@ -128,24 +128,25 @@ a{
 
 .about-container{
     display: inline-block;
-    
-    color: white;
 }
 
 
 .about-img img{
     width: 600px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 .about-img{
     float: left;
+    margin-left: 40px;
 }
 
 .about-info{
     float: right;
-    width: 550px;
-    margin-right: 50px;
+    width: 500px;
+    color: white;
+    font-family: Roboto;
+    margin-left: 80px;
 }
 
 .about-info ol li{
@@ -155,6 +156,8 @@ a{
 }
 .about-info ol{
     display: flex;
+    margin-top: 20px;
+    margin-left: -60px;
 }
 
 
