@@ -1,0 +1,82 @@
+
+
+/* Inicio CSS */
+
+.menu li {
+list-style-type: none;
+margin: 30px 20px;
+
+}
+
+.menu ol{
+    display: flex;
+    justify-content: center;
+}
+
+.hello p{
+    
+    background-color: aqua;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 10px;
+    text-align: center; 
+}
+
+.hello {
+    width: 100px;
+}
+
+.home{
+    /* border: 1px solid red; */
+    display: inline-block;
+    /* justify-content: space-evenly; */
+    margin: 0px 150px;
+
+}
+
+.informacion{
+    border: 1px solid red;
+    margin-left: -40px;
+    margin-right: 50px;
+    float: left;
+    width: 800px;
+    
+}
+
+.nombre {
+
+    /* border: 1px solid red; */
+}
+
+.miNombre{
+    font-size: 60px;
+    margin: 20px 0px;
+    font-family: "roboto", sans-serif;
+}
+
+.profe{
+    font-size: 26px;
+    margin: 25px 0px;
+}
+
+
+.foto img{
+    width: 360px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    border: 5px solid red;
+    float: right;
+}
+
+.foto figure{
+    margin-left: 500px;
+}
+
+
+
