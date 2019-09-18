@@ -29,18 +29,24 @@ margin: 30px 20px;
 
 .home{
     /* border: 1px solid red; */
+    /* margin-top: 180px; */
     display: inline-block;
     /* justify-content: space-evenly; */
-    margin: 0px 150px;
+    /* margin: 0px 150px; */
+    /* background-image: url(./imagenes/home-bg-img.jpg); */
+    width: 98%;
 
 }
 
 .informacion{
-    border: 1px solid red;
-    margin-left: -40px;
-    margin-right: 50px;
+    /* border: 1px solid red; */
+    /* margin-left: -40px; */
+    /* margin-right: 50px; */
     float: left;
-    width: 800px;
+    width: 476px;
+    margin-left: 120px;
+    padding-top: -900px;
+    position: relative;
     
 }
 
@@ -63,20 +69,33 @@ margin: 30px 20px;
 
 .foto img{
     width: 360px;
-    border: 1px solid transparent;
+    border: 20px solid black;
     border-radius: 50%;
+    padding: 20px;
 }
 
 .foto{
     display: flex;
     justify-content: center;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     float: right;
+    width: 400px;
+    margin-right: 250px;
+    margin-top: -900px;
 }
 
 .foto figure{
-    margin-left: 500px;
+    margin: 0px 250px;
+    position: relative;
 }
+
+.fondoHome{
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.2)
+}
+
+
 
 
 
