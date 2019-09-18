@@ -1,7 +1,9 @@
 
 
 /* Inicio CSS */
-
+body{
+    background: #100E17;
+}
 .menu li {
 list-style-type: none;
 margin: 30px 20px;
@@ -59,6 +61,7 @@ a{
     position: relative;
     margin-top: -700px;
     color: white;
+    margin-bottom: 0px;
     
 }
 
@@ -95,6 +98,7 @@ a{
     width: 400px;
     margin-right: 250px;
     margin-top: -700px;
+    margin-bottom: 0px;
 }
 
 .foto figure{
@@ -112,6 +116,8 @@ a{
 
 .about{
     width: 100%;
+    background-color: #100E17;
+    margin: 0px;
 }
 
 .about-info li {
@@ -122,13 +128,14 @@ a{
 
 .about-container{
     display: inline-block;
-    background-color: #100E17;
+    
     color: white;
 }
 
 
 .about-img img{
     width: 600px;
+    margin-left: 10px;
 }
 
 .about-img{
@@ -137,8 +144,19 @@ a{
 
 .about-info{
     float: right;
-    width: 500px;
+    width: 550px;
+    margin-right: 50px;
 }
+
+.about-info ol li{
+    border: 1px solid #0bceaf;
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+.about-info ol{
+    display: flex;
+}
+
 
 
 
