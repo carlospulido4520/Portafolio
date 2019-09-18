@@ -176,9 +176,8 @@ a{
 }
 
 .icons img:hover{
-    /* color: #0bceaf; */
-    background: white;
-   
+    color: #0bceaf;
+    
 }
 
 @media screen and (max-width: 1085px){
@@ -207,13 +206,66 @@ a{
         margin-right: 150px;
         margin-top: -515px;
     }
-
-
+    .about-info{
+    
+    width: 450px;
+    margin-left: 110px;
+    }
+    .about-img img {
+        width: 400px;
+        margin-left: 15px;
+        margin-top: 45px;
+}
 }
 
 
+@media screen and (min-width: 1800px){
 
+    .hello {
+        width: 270px;
+    }
 
+    .menu li {
+        font-size: 30px;
+    }
+    .miNombre {
+        font-size: 80px;
+    }
 
+    .hello p{
+        padding: 15px;
+        font-size: 40px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border-top-left-radius: 40px;
+    }
+    .informacion{
+        margin-left: 310px;
+        margin-top: -615px;
+    }
+    .foto{
+        margin-right: 465px;
+        margin-top: -620px;
+    }
 
+    .fondoHome img{
+        height: 700px;
+    }
+    .about-container {
+        width: 100%;
+    }
+    .about-img {
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+    .about-info{
+        margin-right: 370px;
+    }
+    .about-info h1{
+        font-size: 50px;
+    }
+    .about-info p{
+        font-size: 20px;
+    }
 
+}
