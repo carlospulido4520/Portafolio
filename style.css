@@ -45,8 +45,10 @@ margin: 30px 20px;
     float: left;
     width: 476px;
     margin-left: 120px;
-    padding-top: -900px;
+    padding-top: 40px;
     position: relative;
+    margin-top: -700px;
+    color: white;
     
 }
 
@@ -81,7 +83,7 @@ margin: 30px 20px;
     float: right;
     width: 400px;
     margin-right: 250px;
-    margin-top: -900px;
+    margin-top: -700px;
 }
 
 .foto figure{
@@ -89,11 +91,16 @@ margin: 30px 20px;
     position: relative;
 }
 
-.fondoHome{
+
+
+.fondoHome img{
     width: 100%;
+    filter: brightness(0.2);
     object-fit: cover;
-    filter: brightness(0.2)
+
 }
+
+
 
 
 
