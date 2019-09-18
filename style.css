@@ -181,6 +181,30 @@ a{
    
 }
 
+@media screen and (max-width: 1085px){
+
+    body{
+        width: 1085px;
+    }
+    .menu, .menu nav, .menu nav ol{
+        width:100%;
+    }
+    .menu{
+        display: block;
+        width: 100%;
+        position: fixed;
+        z-index: 100;   
+    }
+
+    .menu ol li{
+        width: 100%;
+        color: red;
+    }
+
+
+
+}
+
 
 
 
