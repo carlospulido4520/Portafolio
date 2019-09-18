@@ -184,7 +184,7 @@ a{
 @media screen and (max-width: 1085px){
 
     body{
-        width: 1085px;
+        width: 1085px !important;
     }
     .menu, .menu nav, .menu nav ol{
         width:100%;
@@ -198,9 +198,15 @@ a{
 
     .menu ol li{
         width: 100%;
-        color: red;
     }
-
+    .informacion{
+        margin-left: 50px;
+        margin-top: -515px;
+    }
+    .foto{
+        margin-right: 150px;
+        margin-top: -515px;
+    }
 
 
 }
