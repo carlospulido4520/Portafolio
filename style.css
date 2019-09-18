@@ -25,7 +25,7 @@ a{
 
 .hello p{
     
-    background-color: aqua;
+    background-color: #0bbba0;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -106,6 +106,16 @@ a{
     position: relative;
 }
 
+.nombre img{
+    width: 15px;
+    margin: 0px 10px;
+}
+
+.icons img{
+    width: 30px;
+    margin: 0px 10px;
+}
+
 
 
 .fondoHome img{
@@ -158,6 +168,10 @@ a{
     display: flex;
     margin-top: 20px;
     margin-left: -60px;
+}
+
+.menu li:hover{
+    color:#0bceaf
 }
 
 
