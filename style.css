@@ -183,7 +183,7 @@ a{
 @media screen and (max-width: 1085px){
 
     body{
-        width: 100% !important;
+        width: 1085px !important;
     }
     .menu, .menu nav, .menu nav ol{
         width:100%;
