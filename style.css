@@ -118,8 +118,18 @@ a{
     width: 30px;
     margin: 0px 10px;
 }
-
-
+.fa-github:hover{
+    color:black;
+}
+.fa-twitter:hover{
+    color: #00acee;
+}
+.fa-facebook-f:hover{
+    color: #3b5998;
+}
+.icons a{
+    margin: 15px;
+}
 
 .fondoHome img{
     width: 110%;
@@ -164,7 +174,7 @@ a{
 }
 
 .about-info ol li{
-    border: 1px solid #0bceaf;
+    /*border: 1px solid #0bceaf;*/
     border-radius: 4px;
     padding: 4px 10px;
 }
@@ -172,6 +182,10 @@ a{
     display: flex;
     margin-top: 20px;
     margin-left: -60px;
+}
+.about-info img {
+    width: 50px;
+    height: 50px;
 }
 
 .menu li:hover{
