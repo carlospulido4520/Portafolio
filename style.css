@@ -258,13 +258,102 @@ a{
 .proyecto-container a:hover{
     color: #0bceaf;
 }
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.containerskills{
+    height: auto;
+    width: 40%;
+}
+.containerskills1{
+    height: auto;
+    width: 40%;
+}
+.skills p{
+    color: white;
+    font-family: roboto;
+    
+}
+#progressbar {
+    background-color: #8C8C8C;
+    border-radius: 13px; 
+    margin: 15px 0px 0px ;
+    width: 100%;
+  }
+  
+.progressbar1  {
+     background-color: #0bceaf;
+     width: 60%; /*JavaScript */
+     height: 10px;
+     border-radius: 10px;
+}
+.progressbar2 {
+    background-color: #0bceaf;
+    width: 90%; /* HTML */
+    height: 10px;
+    border-radius: 10px;
+}
+.progressbar3{
+    background-color: #0bceaf;
+    width: 80%; /* python*/
+    height: 10px;
+    border-radius: 10px;
+}
+
+.progressbar4 {
+    background-color: #0bceaf;
+    width: 70%; /*comunicacion */
+    height: 10px;
+    border-radius: 10px;
+}
+
+.progressbar5 {
+    background-color: #0bceaf;
+    width: 90%; /*trabajo en equipo  */
+    height: 10px;
+    border-radius: 10px;
+}
+.progressbar6  {
+    background-color: #0bceaf;
+    width: 60%; /*Creatividad */
+    height: 10px;
+    border-radius: 10px;
+}
+.expdiv{
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    margin: 60px 20px 30px 29%;
+    border-radius: 10px;
+    -webkit-box-shadow: -15px 10px 19px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -15px 10px 19px 2px rgba(0,0,0,0.75);
+    box-shadow: -15px 10px 19px 2px rgba(0,0,0,0.75);
+  }
+  .infoexp{
+  
+    font-family: roboto;
+    color: black;
+    text-align: center;
+    padding: 1px;
+  }
 
 .contact{
     width: auto;
     height: auto;
     background-image: url(./imagenes/mapa.png);
     
-  }
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    font-family: roboto;
+    font-size: 40px;
+}
   
   .contactdiv{
     width: 600px;
